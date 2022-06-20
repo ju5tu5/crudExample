@@ -1,0 +1,9 @@
+* {
+  background: #fafafa;
+}
+
+label {
+  margin-top: 1rem;
+  display: block;
+  clear: both;
+}

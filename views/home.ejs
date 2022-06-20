@@ -1,0 +1,15 @@
+<%- include ('./partials/head.ejs') %>
+
+<mark><%=veld1 %></mark>
+<em><%=veld2 %></em>
+
+<form action="/delete" method="POST">
+<label for="veld1">Dit is een invoerveld</label>
+  <input name="veld1" id="veld1" type="text">
+<label for="veld2">Dit is ook een invoerveld</label>
+  <input name="veld2" id="veld2" type="text">
+<label for="submit">Dit is een submit-knop</label>
+  <input type="submit" id="submit" value="Verstuur">
+</form>
+
+<%- include ('./partials/foot.ejs') %>
